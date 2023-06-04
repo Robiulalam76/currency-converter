@@ -22,6 +22,13 @@ const Calculator = () => {
   const [result, setResult] = useState("");
   const [expression, setExpression] = useState("");
 
+  const gradientBtn = [
+    "rgba(170, 255, 251, 0.5)",
+    "rgba(78, 67, 255, 0.49)",
+    "rgba(137, 129, 254, 0.49)",
+    "rgba(136, 128, 254, 0.5)",
+  ]
+
   const handleButtonClick = (value) => {
     let newExpression = expression;
     let newResult = result;
@@ -134,11 +141,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -155,11 +158,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -177,11 +176,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -199,11 +194,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -223,11 +214,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -244,11 +231,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -265,11 +248,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -286,11 +265,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -311,11 +286,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -332,11 +303,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -353,11 +320,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -374,11 +337,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -399,11 +358,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -420,11 +375,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -441,11 +392,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -462,11 +409,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -487,11 +430,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -508,11 +447,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -529,11 +464,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
@@ -550,11 +481,7 @@ const Calculator = () => {
               }}
             >
               <LinearGradient
-                colors={[
-                  "rgba(170, 255, 251, 0.5)",
-                  "rgba(78, 67, 255, 0.48508)",
-                  "rgba(136, 128, 254, 0.5)",
-                ]}
+                colors={gradientBtn}
                 style={styles.button}
               >
                 <Text fontSize={24} fontWeight="bold" color="black">
