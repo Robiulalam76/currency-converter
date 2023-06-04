@@ -71,7 +71,7 @@ const Calculator = () => {
             >
               <VStack justifyContent={"flex-end"} alignItems={"flex-end"}>
                 <Text fontSize={24} fontWeight={600}>
-                  dsds {expression}
+                  {expression}
                 </Text>
                 <Text
                   fontSize={18}
